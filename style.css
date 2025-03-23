@@ -25,6 +25,10 @@ h1 {
 	font-weight: 300;
 }
 
+
+
+
+
 p {
 	margin: 0 0 1.5em 0;
 }
@@ -129,7 +133,7 @@ nav {
 	}
 
 #main-footer {
-	background: #333;
+	background: #000000;
 	color: white;
 	text-align: center;
 	padding: 20px;
@@ -166,7 +170,7 @@ nav {
 	
 	.contenedor-botones2{
 		width: 100%;
-		
+		font-size: 85px;
 		display: grid;
 		grid-template-columns: repeat(2,1fr);
 		gap:40px;
@@ -241,28 +245,60 @@ nav {
 	
 	
 	}
+
+	h6{
+	
+		font-size: 2.0vw;
+		font-weight: 6000;
+		text-align: center;
+		margin-bottom: 90px;
+		text-transform: uppercase;
+		color:rgb(0, 0, 0);
+		border: 20px 10px;
+		display: inline-block;
+		text-shadow:
+			-1px -1px 0 #000000,
+			-1px -1px 0 #000000,
+			1px 1px 0 #000000,
+			1px 1px 0 #000000;
+
+		}
+
+
+
+
+
+
 	
 	
 	.boton{
 	
 		display:inline-flex;
+		font-size: 55px;
 		align-items: center;
 		justify-content:center;
-		width:90%;
-		height: 150px;
+		width:105%;
+		height: 170px;
 		background:#019fc7;
-		color:rgb(10, 10, 10);
+		color:rgb(0, 0, 0);
 		font-size: 20px;
 		font-weight: 100;
 		border:none;
 		cursor:pointer;
 		text-transform:uppercase;
 		transition: .3s ease all;
-		border-radius: 50px;
+		border-radius: 90px;
 		position: relative;
 		overflow: hidden;
 		text-align: center;
+	
+		
+
+
+
 	}
+
+
 	
 	.boton span{
 		position: relative;
